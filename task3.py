@@ -6,3 +6,13 @@
 # Абракадабра
 # Вывод
 # а-5 б-2 д-1 к-1 р-2
+a = input()
+A = {}
+a = a.lower()
+for i in a:
+    if i in A:
+      A[i] += 1
+    else:
+      A[i] = 1
+
+print(A)
